@@ -20,7 +20,7 @@ A fixture for the cds-card-service project is implemented as a javascript module
 
 The `definition` property describes the service as it would be exposed through the `/.well-known/cds-services` endpoint. The schema for the service definition is available at the [CDS Hooks Discovery documentation page](http://cds-hooks.github.io/docs/#discovery).
 
-The `payload` property is the payload that will be returned from the `/cds-services/fixture` endpoint. The schema for the payload is available at http://cds-hooks.github.io/docs/#cds-service-response. You can also use the [cds-validator](https://github.com/cds-hooks/cds-validator) project to ensure the schema payload is valid.
+The `payload` property is the payload that will be returned from the `/cds-services/fixture` endpoint. The schema for the payload is available at the [CDS Hooks Service Response documentation page](http://cds-hooks.github.io/docs/#cds-service-response). You can also use the [cds-validator](https://github.com/cds-hooks/cds-validator) project to ensure the schema payload is valid.
 
 Prior to submitting a pull request for the fixture, please make sure that `npm test` passes the jshint.
 
