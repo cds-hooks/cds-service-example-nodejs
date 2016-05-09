@@ -15,11 +15,30 @@ Successfully built <container-id>
 $ docker run -p 9000:9000 -d --rm <your-name>/cds-card-service
 ```
 
+## Adding a fixture
+A fixture for the cds-card-service project is implemented as a javascript module that exports two properties: `definition` and `payload`.
+
+The `definition` property describes the service as it would be exposed through the `/.well-known/cds-services` endpoint. The schema for the service definition is available at the [CDS Hooks Discovery documentation page](http://cds-hooks.github.io/docs/#discovery).
+
+The `payload` property is the payload that will be returned from the `/cds-services/fixture` endpoint. The schema for the payload is available at http://cds-hooks.github.io/docs/#cds-service-response. You can also use the [cds-validator](https://github.com/cds-hooks/cds-validator) project to ensure the schema payload is valid.
+
+Prior to submitting a pull request for the fixture, please make sure that `npm test` passes the jshint.
+
+Skeleton:
+
+```js
+'use strict';
+
+module.exports = {
+  definition: {},
+  payload: {}
+}
+```
+
 ## Notes
 Thank you to [Josh Mandel](https://github.com/jmandel) and [Kevin Shekleton](https://github.com/kpshek) for the cds-hooks project, a JSON-based mechanism for EMR systems to provide decision support tools from within a clinician's workflow.
 
 ## License
-
 (MIT License)
 Copyright (c) 2016 [Matt Berther](https://matt.berther.io)
 

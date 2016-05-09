@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cds-hooks/cds-card-service#readme",
   "dependencies": {
     "express": "4.13.4",
+    "cors": "2.7.1",
     "pug": "2.0.0-alpha6"
   },
   "devDependencies": {
