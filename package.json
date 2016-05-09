@@ -1,5 +1,5 @@
 {
-  "name": "cds-card-service",
+  "name": "cds-service-example-nodejs",
   "version": "0.1.0",
   "description": "Simple nodejs server that acts as a set of CDS services",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/cds-hooks/cds-card-service.git"
+    "url": "git@github.com/cds-hooks/cds-service-example-nodejs.git"
   },
   "author": "Matt Berther",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cds-hooks/cds-card-service/issues"
+    "url": "https://github.com/cds-hooks/cds-service-example-nodejs/issues"
   },
-  "homepage": "https://github.com/cds-hooks/cds-card-service#readme",
+  "homepage": "https://github.com/cds-hooks/cds-service-example-nodejs#readme",
   "dependencies": {
     "express": "4.13.4",
     "cors": "2.7.1",
