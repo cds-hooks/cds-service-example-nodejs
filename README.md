@@ -1,5 +1,6 @@
 # cds-card-service
 
+[![Circle CI](https://circleci.com/gh/cds-hooks/cds-card-service.svg?style=shield)](https://circleci.com/gh/cds-hooks/cds-card-service)
 [![devDependency Status](https://david-dm.org/cds-hooks/cds-card-service.svg)](https://david-dm.org/cds-hooks/cds-card-service#info=devDependencies)
 
 Simple nodejs server that acts as a set of CDS services
