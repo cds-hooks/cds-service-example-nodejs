@@ -18,7 +18,7 @@ $ docker run -p 9000:9000 -d --rm <your-name>/cds-service-example-nodejs
 ## Adding a fixture
 A fixture for the cds-service-example-nodejs project is implemented as a javascript module that exports two properties: `definition` and `payload`.
 
-The `definition` property describes the service as it would be exposed through the `/.well-known/cds-services` endpoint. The schema for the service definition is available at the [CDS Hooks Discovery documentation page](http://cds-hooks.github.io/docs/#discovery).
+The `definition` property describes the service as it would be exposed through the `/cds-services` endpoint. The schema for the service definition is available at the [CDS Hooks Discovery documentation page](http://cds-hooks.github.io/docs/#discovery).
 
 The `payload` property is the payload that will be returned from the `/cds-services/fixture` endpoint. The schema for the payload is available at the [CDS Hooks Service Response documentation page](http://cds-hooks.github.io/docs/#cds-service-response). You can also use the [cds-validator](https://github.com/cds-hooks/cds-validator) project to ensure the schema payload is valid.
 

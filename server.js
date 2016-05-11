@@ -36,7 +36,7 @@ app.post('/cds-services/:name', function(req, res) {
   res.json(fixture.payload);
 });
 
-app.get('/.well-known/cds-services', function(req, res) {
+app.get('/cds-services', function(req, res) {
   var services = ['hw-drug-interactions', 'hw-patient-education'].map(function(item) {
     return require('./fixtures/' + item).definition;
   });
