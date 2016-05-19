@@ -1,6 +1,6 @@
 # cds-service-example-nodejs
 
-[![Circle CI](https://circleci.com/gh/cds-hooks/cds-service-example-nodejs.svg?style=shield)](https://circleci.com/gh/cds-hooks/cds-service-example-nodejs)
+[![Build Status](https://travis-ci.org/cds-hooks/cds-service-example-nodejs.svg?branch=master)](https://travis-ci.org/cds-hooks/cds-service-example-nodejs)
 [![devDependency Status](https://david-dm.org/cds-hooks/cds-service-example-nodejs.svg)](https://david-dm.org/cds-hooks/cds-service-example-nodejs)
 
 Simple nodejs server that acts as a set of CDS services
